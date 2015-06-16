@@ -1,6 +1,7 @@
 #include "../lib/mymath.h"
 #include "../lib/gauss.h"
 #include "../lib/const.h"
+#include <tclap/CmdLine.h>
 
 using namespace std;
 using namespace arma;
