@@ -1,5 +1,5 @@
 CC=g++
-CFLAGS=-c -Wall -Wextra -pedantic -std=gnu++11 -fopenmp -I ../lib/armadillo_5_1/include -I ../lib/tclap  -DARMA_DONT_USE_WRAPPER
+CFLAGS=-c -Wall -Wextra -pedantic -std=c++0x -fopenmp -I ../lib/armadillo_5_1/include -I ../lib  -DARMA_DONT_USE_WRAPPER
 LIB=-lgsl -lgslcblas -lm -llapack -lblas -larmadillo -fopenmp 
 SOURCES:=$(wildcard *.cpp) $(wildcard ../lib/*.cpp)
 OBJECTS=$(SOURCES:.cpp=.o)

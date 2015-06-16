@@ -1,6 +1,6 @@
-#include "../lib/mymath.h"
-#include "../lib/gauss.h"
-#include "../lib/const.h"
+#include <mymath.h>
+#include <gauss.h>
+#include <const.h>
 #include <tclap/CmdLine.h>
 
 using namespace std;

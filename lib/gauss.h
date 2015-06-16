@@ -1,5 +1,5 @@
 #include <iostream>
-#include "mymath.h"
+#include <mymath.h>
 #include <math.h>
 #include <stdio.h>
 #include <armadillo>
