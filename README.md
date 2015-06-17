@@ -17,6 +17,7 @@
 
 ## Example Usage
 * **./a.out -p pot/test_vsrg_N3LO_EM_500_NN_3P2-3F2_Mev_fm3.dat > gap.dat**
-* To get gap in Mev, **./a.out -p pot/test_vsrg_N3LO_EM_500_NN_3P2-3F2_Mev_fm3.dat -M > gap.dat**
+* To get gap in Mev,
+*  **./a.out -p pot/test_vsrg_N3LO_EM_500_NN_3P2-3F2_Mev_fm3.dat -M > gap.dat**
 * For relativistic calculation use *-r* flag.
 * See *./a.out --help* for other options.
