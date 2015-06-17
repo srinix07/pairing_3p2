@@ -5,6 +5,7 @@
 * gsl libraries in standard location.
 * make
 * g++(gcc) 
+* OpenMP (Optional)
 
 ## Usage
 * Run make inside khodel_3p2 directory.
@@ -21,3 +22,7 @@
 *  **./a.out -p pot/test_vsrg_N3LO_EM_500_NN_3P2-3F2_Mev_fm3.dat -M > gap.dat**
 * For relativistic calculation use *-r* flag.
 * See *./a.out --help* for other options.
+
+## OpenMP.
+* By default Openmp is used, to disable OpenMp,
+* remove -fopenmp flags from *CFLAGS* and *LIB* in the makefile.
