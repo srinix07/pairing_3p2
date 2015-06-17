@@ -5,6 +5,7 @@
 #include <gsl/gsl_errno.h>
 #include <gsl/gsl_spline.h>
 #include <gsl/gsl_deriv.h>
+#include <gsl/gsl_interp.h>
 #include <fstream>
 #include <string>
 #include <math.h>
