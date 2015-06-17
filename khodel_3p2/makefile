@@ -1,6 +1,6 @@
 CC=g++
 CFLAGS=-c -Wall -Wextra -pedantic -std=c++0x -fopenmp -I ../lib/armadillo_5_1/include -I ../lib  -DARMA_DONT_USE_WRAPPER
-LIB=-lgsl -lgslcblas -lm -llapack -lblas -larmadillo -fopenmp 
+LIB=-lgsl -lgslcblas -lm -llapack -lblas -fopenmp 
 SOURCES:=$(wildcard *.cpp) $(wildcard ../lib/*.cpp)
 OBJECTS=$(SOURCES:.cpp=.o)
 OUT=a.out 
