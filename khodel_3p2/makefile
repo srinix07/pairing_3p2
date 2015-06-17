@@ -14,8 +14,8 @@ $(OUT):$(OBJECTS)
 %.o:%.cpp
 	$(CC) $(CFLAGS) $< -o $@
 
-clean:$(OUT)
-	rm -rf *.o ../lib/*.o
+clean:$(OBJECTS) ($OUT)
+	rm -rf *.o ../lib/*.o *.out
 
 .PHONY:test
 
